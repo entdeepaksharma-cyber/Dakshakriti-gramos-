@@ -1,0 +1,6 @@
+{
+  "name": "Gramos Mart - Apna Bazar",
+  "description": "Multi-category retail, regional distribution, 3-tier inventory, POS billing, financial governance, and producer partnership operating system for GRAMOS Mart (Kota Pilot).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1000 @@
+### GRAMOS MART — FOUR-PHASE IMPLEMENTATION & COMMERCIAL DEPLOYMENT MASTER PLAN
+
+# GRAMOS MART
+## Four-Phase Implementation & Commercial Deployment Master Plan
+
+**Project:** GRAMOS MART
+**Project Code:** GRM-IMP-001
+**Version:** 1.0
+**Project Owner:** Dakshakriti Product and Service
+**Business Brand:** GRAMOS
+**Master Product Brand:** GRAMOSFUEL
+**Project Location:** Kota, Rajasthan, India
+**Implementation Status:** Ready for business data activation
+**Application Status:** Existing application developed and confirmed working by the user
+
+---
+
+# 1. PROJECT PURPOSE
+
+GRAMOS MART has completed its application development stages. The existing application is working and is ready to move from the development stage towards practical business implementation.
+
+The next objective is to transform the application into the central operating system for GRAMOS MART.
+
+This implementation plan establishes four consecutive phases:
+
+1. Business Data Activation.
+2. Transaction Validation.
+3. Physical Store Deployment.
+4. Commercial Expansion.
+
+Each phase will establish the foundation required for the next phase.
+
+The objective is not to develop another application. The objective is to activate, test, deploy and commercially utilise the existing GRAMOS MART application.
+
+# 2. PHASE 1 — BUSINESS DATA ACTIVATION
+
+**Phase Code:** GRM-IMP-P01
+**Objective:** Populate the existing application with actual business information and prepare it for real operational use.
+
+## 2.1 Product Catalogue Activation
+
+Create the actual product catalogue inside GRAMOS MART.
+
+The catalogue should cover the following industries and categories:
+
+- Food and grocery products.
+- GRAMOSFUEL products.
+- Household essentials.
+- Personal and daily-use products.
+- Agriculture and gardening products.
+- Regional and Hadoti products.
+- Seasonal products.
+- General merchandise and utility products.
+
+For every product, maintain:
+
+- Product name.
+- Product ID or SKU.
+- Industry and category.
+- Subcategory.
+- Brand.
+- Product description.
+- Manufacturer or supplier.
+- Purchase cost.
+- Selling price.
+- Maximum retail price, where applicable.
+- Unit of measurement.
+- Package size.
+- Tax classification, where applicable.
+- Batch number, where applicable.
+- Manufacturing date, where applicable.
+- Expiry or best-before date, where applicable.
+- Minimum stock quantity.
+- Reorder level.
+- Product status.
+
+The catalogue should distinguish between products that are ready for sale, products under evaluation and products not yet approved.
+
+## 2.2 Supplier Database Activation
+
+Register actual suppliers and manufacturers.
+
+Supplier categories:
+
+- Manufacturers.
+- Contract manufacturers.
+- White-label manufacturers.
+- Distributors.
+- Wholesalers.
+- Regional producers.
+- Agricultural producers.
+- Local manufacturers.
+- Packaging suppliers.
+- Logistics and service providers.
+
+Maintain supplier records containing:
+
+- Supplier name.
+- Contact details.
+- Business address.
+- Product categories supplied.
+- GST details, where applicable.
+- FSSAI details, where applicable.
+- Payment terms.
+- Credit period.
+- Minimum order quantity.
+- Delivery arrangements.
+- Quality documentation.
+- Outstanding payment information.
+- Supplier agreement and supporting documents.
+
+Supplier information must be verified before approving commercial transactions.
+
+## 2.3 Product Cost and Selling Price Activation
+
+Enter actual procurement costs and proposed selling prices.
+
+Calculate:
+
+- Purchase cost.
+- Packaging cost.
+- Transportation cost.
+- Other attributable procurement costs.
+- Landed cost.
+- Selling price.
+- Applicable taxes.
+- Gross margin.
+- Expected contribution.
+
+Use actual supplier quotations and purchase records wherever available.
+
+Do not enter assumed prices as confirmed business costs.
+
+## 2.4 Inventory Ownership Activation
+
+Configure the three inventory ownership models separately.
+
+**A. Self-funded inventory**
+
+Products purchased using business funds and owned by the business.
+
+**B. Supplier-credit inventory**
+
+Products received through an agreed credit purchase, with payment due to the supplier.
+
+**C. Consignment inventory**
+
+Products supplied by a third party that retains ownership until the agreed sale or transfer condition.
+
+For each model, maintain:
+
+- Quantity received.
+- Quantity sold.
+- Quantity remaining.
+- Ownership status.
+- Purchase or settlement value.
+- Supplier liability, where applicable.
+- Return conditions.
+- Damage and expiry responsibility.
+- Payment due dates.
+
+Never combine these three models into one undifferentiated inventory balance.
+
+## 2.5 Initial Stock Activation
+
+Prepare the initial stock list for the proposed physical outlet.
+
+Classify products as:
+
+- Essential launch products.
+- High-priority products.
+- GRAMOSFUEL products.
+- Regional products.
+- Trial products.
+- Seasonal products.
+- Future expansion products.
+
+Start with a controlled product range rather than purchasing excessive inventory.
+
+## 2.6 Payment Terms and Financial Configuration
+
+Configure the business's actual payment arrangements:
+
+- Cash purchases.
+- Immediate bank transfers.
+- UPI payments.
+- Supplier-credit purchases.
+- Consignment settlements.
+- Customer receivables, where applicable.
+- Supplier payment schedules.
+- Refunds and returns.
+- Operating expenses.
+
+Maintain separate records for business funds, supplier liabilities and customer payments.
+
+## 2.7 Phase 1 Deliverables
+
+At completion, the business should have:
+
+1. Activated product catalogue.
+2. Verified supplier database.
+3. Actual purchase-cost records.
+4. Proposed selling-price records.
+5. Initial inventory records.
+6. Three inventory ownership classifications.
+7. Supplier payment terms.
+8. Financial configuration.
+9. Product category structure.
+10. Initial procurement plan.
+
+**Phase 1 completion condition:** The application contains sufficient verified business data to begin controlled transaction testing.
+
+---
+
+# 3. PHASE 2 — TRANSACTION VALIDATION
+
+**Phase Code:** GRM-IMP-P02
+**Objective:** Verify that the existing application correctly records, processes and reports actual business transactions.
+
+This phase is critical.
+
+A working interface does not automatically prove that inventory, financial calculations and business records are accurate.
+
+The application must be tested using controlled transactions before becoming the main operating system of a physical store.
+
+## 3.1 Purchase Transaction Testing
+
+Test the complete procurement process:
+
+1. Select an approved supplier.
+2. Create a purchase entry or order.
+3. Add products and quantities.
+4. Enter actual purchase prices.
+5. Record taxes and additional costs where applicable.
+6. Select inventory ownership type.
+7. Record payment status.
+8. Confirm stock receipt.
+9. Verify the updated inventory.
+10. Verify the supplier account.
+
+Expected result:
+
+The application should correctly record the purchase, inventory movement, ownership classification and supplier liability.
+
+## 3.2 Sales Transaction Testing
+
+Test retail sales.
+
+Verify:
+
+- Product selection.
+- Selling price.
+- Quantity.
+- Applicable discounts.
+- Taxes.
+- Invoice or receipt generation.
+- Cash payment.
+- UPI payment.
+- Other supported payment methods.
+- Sales records.
+- Inventory deduction.
+
+Expected result:
+
+Every completed sale should produce the correct sales record and corresponding stock movement.
+
+## 3.3 Stock Deduction Testing
+
+Verify that inventory quantities change correctly after:
+
+- Retail sales.
+- Wholesale sales.
+- Customer returns.
+- Supplier returns.
+- Stock transfers.
+- Damaged goods.
+- Expired products.
+- Inventory adjustments.
+
+The system should maintain an identifiable transaction history.
+
+## 3.4 Supplier Dues Validation
+
+Test supplier-credit transactions.
+
+Verify:
+
+- Amount payable.
+- Payment due date.
+- Partial payment.
+- Full settlement.
+- Outstanding balance.
+- Payment history.
+- Supplier account reconciliation.
+
+For consignment inventory, verify the agreed settlement trigger and ensure the application does not incorrectly record consignment stock as business-owned stock.
+
+## 3.5 Customer Returns and Refund Testing
+
+Test:
+
+- Return requests.
+- Product condition.
+- Return approval.
+- Refunds.
+- Replacement.
+- Stock restoration.
+- Damaged or unsaleable returned products.
+- Customer complaint records.
+
+Returns should not automatically restore all products to saleable inventory. Their quality status must be checked.
+
+## 3.6 Expense Validation
+
+Test expense entries for:
+
+- Transportation.
+- Packaging.
+- Electricity.
+- Staff payments.
+- Rent or premises expenses.
+- Marketing.
+- Maintenance.
+- Delivery.
+- Other approved business expenses.
+
+Verify that expenses appear in the correct financial reports.
+
+Avoid recording the same cost twice.
+
+## 3.7 Financial Calculation Validation
+
+Verify the following calculations:
+
+**Sales Revenue**
+
+Total value of completed sales, with appropriate treatment of discounts, taxes, returns and cancellations.
+
+**Cost of Goods Sold**
+
+Cost attributable to products actually sold, calculated using the selected accounting and inventory valuation method.
+
+**Gross Profit**
+
+Sales revenue excluding applicable indirect taxes, less cost of goods sold.
+
+**Operating Expenses**
+
+Expenses incurred in running the business.
+
+**Operating Profit**
+
+Gross profit less relevant operating expenses.
+
+**Net Profit**
+
+The final accounting result after applicable expenses, finance costs, taxes and other required adjustments.
+
+**Available Cash**
+
+Actual cash and bank balances, adjusted for outstanding receipts and payments as appropriate.
+
+The application must not treat sales revenue, stock value, supplier credit or consignment stock as available profit.
+
+## 3.8 Reconciliation and Error Testing
+
+Conduct regular comparisons between:
+
+- Physical stock and digital stock.
+- Purchase invoices and purchase records.
+- Sales receipts and sales records.
+- Supplier statements and outstanding balances.
+- Cash and bank statements.
+- Expense documents and expense entries.
+
+Test duplicate transactions, cancelled orders, incorrect quantities, negative stock, incomplete payments and network interruptions.
+
+Maintain a correction log for every identified issue.
+
+## 3.9 User Access and Data Protection Testing
+
+Verify:
+
+- Login and authentication.
+- User roles and permissions.
+- Founder/admin access.
+- Staff access restrictions.
+- Financial data protection.
+- Backup arrangements.
+- Data recovery.
+- Audit history.
+- Account access removal when staff leave.
+
+The application should not be considered fully secure merely because it is accessible and working.
+
+## 3.10 Phase 2 Deliverables
+
+1. Purchase transaction test report.
+2. Sales transaction test report.
+3. Inventory movement test report.
+4. Supplier dues validation.
+5. Returns and refund test report.
+6. Expense validation.
+7. Financial calculation validation.
+8. Physical-to-digital stock reconciliation.
+9. Error and correction register.
+10. Data backup and access review.
+11. Transaction validation approval.
+
+**Phase 2 completion condition:** Critical business transactions reconcile correctly, identified errors are corrected, and the application is approved for controlled live operations.
+
+---
+
+# 4. PHASE 3 — PHYSICAL STORE DEPLOYMENT
+
+**Phase Code:** GRM-IMP-P03
+**Objective:** Introduce GRAMOS MART into actual physical retail operations using the existing application.
+
+This phase will begin once the premises, business arrangements, required registrations and operational preparations are ready.
+
+## 4.1 Physical Store Preparation
+
+Evaluate the proposed location:
+
+Next to Nav Durga Mandir, opposite Kotri Steel Bridge, Kota, Rajasthan.
+
+The proposed premises include two vacant shops.
+
+The initial strategy should be to evaluate a one-shop pilot.
+
+The second shop should be considered only if customer demand, storage requirements or distribution operations justify the additional expense.
+
+Before occupation, confirm:
+
+- Written premises agreement.
+- Rent or proposed profit-sharing terms.
+- Shop dimensions.
+- Electricity and water.
+- Storage suitability.
+- Customer access.
+- Signage permissions.
+- Safety arrangements.
+- Required registrations and licences.
+
+The quoted rent of ₹35,000 must be clarified as to whether it applies to one shop or both.
+
+The proposed property-owner profit-sharing arrangement of 15–20% of distributable profit must be formally negotiated and documented. It is not a final agreement.
+
+## 4.2 Physical Store Setup
+
+Prepare the retail space with:
+
+- Entrance and customer movement area.
+- Product display shelves.
+- GRAMOSFUEL product zone.
+- Regional products display.
+- Household and daily-use product zone.
+- Billing counter.
+- Stock receiving area.
+- Back storage.
+- Damaged and expired product quarantine area.
+- Signage and price labels.
+- Lighting and ventilation.
+- Security arrangements.
+
+Use a practical and low-cost layout.
+
+Do not invest heavily in permanent infrastructure before the pilot has demonstrated demand.
+
+## 4.3 Application Deployment in the Store
+
+Use the existing GRAMOS MART application for day-to-day business activities.
+
+Operational functions should include:
+
+- Product catalogue management.
+- Purchase entry.
+- Stock receiving.
+- Inventory tracking.
+- Retail sales.
+- Supplier payment records.
+- Customer management.
+- Expense recording.
+- Stock alerts.
+- Business reports.
+
+Where supported by the existing application, use mobile devices, computers or tablets for the relevant activities.
+
+Maintain a documented backup procedure and a manual contingency process in case the application or internet connection becomes unavailable.
+
+## 4.4 Staff and Operating Responsibilities
+
+Define clear responsibilities.
+
+**Founder / Business Operator**
+
+- Business management.
+- Supplier relationships.
+- Procurement approval.
+- Financial supervision.
+- Pricing approval.
+- Marketing.
+- Business development.
+
+**Store Manager / Supervisor**
+
+- Daily store operations.
+- Opening and closing.
+- Staff coordination.
+- Customer service.
+- Stock monitoring.
+- Daily reporting.
+
+**Sales and Inventory Staff**
+
+- Product display.
+- Customer assistance.
+- Billing.
+- Receiving stock.
+- Stock replenishment.
+- Cleanliness.
+- Basic customer support.
+
+Start with a lean team and increase staffing only when sales and workload justify it.
+
+## 4.5 Live Store Operations
+
+Begin controlled retail operations.
+
+Daily procedures:
+
+1. Opening inspection.
+2. Application and device check.
+3. Physical stock verification for priority items.
+4. Customer service.
+5. Product sales and billing.
+6. Purchase and stock receiving.
+7. Supplier payment recording.
+8. Expense recording.
+9. Cash and digital payment reconciliation.
+10. Closing stock and sales review.
+
+Every sale and purchase should be recorded consistently.
+
+## 4.6 Customer Acquisition
+
+Launch local marketing activities:
+
+- Storefront branding.
+- Google Business Profile.
+- WhatsApp Business.
+- Local community promotion.
+- Instagram and Facebook.
+- Product demonstrations where permitted.
+- GRAMOSFUEL product promotion.
+- Regional product discovery.
+- Customer referral programme.
+- Repeat-customer engagement.
+
+Focus on customer trust, product quality, reasonable pricing and repeat purchases.
+
+## 4.7 Pilot Performance Monitoring
+
+Review the following:
+
+- Daily sales.
+- Number of bills.
+- Average bill value.
+- Category-wise sales.
+- Product-wise sales.
+- Gross margin.
+- Operating expenses.
+- Stock turnover.
+- Expired and damaged stock.
+- Supplier payment commitments.
+- Customer complaints.
+- Repeat customers.
+- Cash flow.
+
+Do not expand merely because the shop is operational.
+
+Expansion should follow measurable demand and sustainable unit economics.
+
+## 4.8 Phase 3 Deliverables
+
+1. Premises readiness approval.
+2. Store layout and infrastructure.
+3. Required business compliance documentation.
+4. Staff responsibility structure.
+5. Live application deployment.
+6. Store operating procedures.
+7. Initial retail product range.
+8. Customer acquisition activities.
+9. Daily and monthly performance reports.
+10. Physical store pilot evaluation.
+
+**Phase 3 completion condition:** GRAMOS MART has operated through the application for a controlled period, with reliable transaction records, reconciled inventory and measurable customer demand.
+
+---
+
+# 5. PHASE 4 — COMMERCIAL EXPANSION
+
+**Phase Code:** GRM-IMP-P04
+**Objective:** Convert GRAMOS MART from a single retail outlet into a scalable multi-channel retail, sourcing and distribution business.
+
+This phase begins after the first operating model has demonstrated commercial viability.
+
+## 5.1 Wholesale Business Development
+
+Develop wholesale sales to:
+
+- Local retailers.
+- Kirana stores.
+- Small shops.
+- Food outlets.
+- Regional distributors.
+- Other approved business buyers.
+
+Establish:
+
+- Wholesale product catalogue.
+- Minimum order quantities.
+- Wholesale price lists.
+- Customer credit policy.
+- Bulk order management.
+- Delivery arrangements.
+- Payment collection.
+- Customer account records.
+
+Wholesale prices must be based on actual costs, margins and payment risks.
+
+## 5.2 Institutional and Bulk Supply
+
+Identify institutional buyers such as:
+
+- Offices.
+- Educational institutions.
+- Hostels.
+- Hotels.
+- Restaurants.
+- Cafeterias.
+- Small businesses.
+- Other eligible organisations.
+
+Develop a separate institutional supply model.
+
+Prepare:
+
+- Institutional product catalogue.
+- Bulk quotation format.
+- Purchase-order process.
+- Delivery schedule.
+- Billing process.
+- Payment terms.
+- Contract and service conditions.
+
+Do not extend credit without defined approval and recovery procedures.
+
+## 5.3 Regional Producer Sourcing Network
+
+Connect GRAMOS MART with regional manufacturers, rural producers, local entrepreneurs and small businesses.
+
+Integrate the broader ecosystem:
+
+**Made in Hadoti**
+
+Regional producer discovery, visibility and promotion.
+
+**Gramodaya Udyam**
+
+Producer development, sourcing support and business relationships.
+
+**GRAMOS MART**
+
+Product listing, procurement, distribution and retail sales.
+
+Build a structured producer onboarding process:
+
+1. Identify producers.
+2. Evaluate product quality.
+3. Verify relevant licences and documents.
+4. Confirm production capacity.
+5. Agree on prices.
+6. Select the procurement model.
+7. Approve products.
+8. Enter products into the application.
+9. Start controlled sales.
+10. Review producer and product performance.
+
+The objective is to create a reliable regional product network, not simply collect product listings.
+
+## 5.4 GRAMOSFUEL Commercial Integration
+
+Expand GRAMOSFUEL as the master consumer-product brand.
+
+Potential product development areas:
+
+- Sattu-based products.
+- Roasted chana.
+- Traditional snacks.
+- Nutrition-oriented food products.
+- Energy bars.
+- Traditional sweets.
+- Seeds and related products.
+- Other suitable consumer products.
+
+Select products according to demand, quality, production capability, regulatory requirements and actual commercial margins.
+
+Use GRAMOS MART as an important retail and distribution channel for GRAMOSFUEL.
+
+## 5.5 Multi-Channel Sales Architecture
+
+Build multiple sales channels:
+
+**Channel 1 — Physical Retail**
+
+Direct customer sales from GRAMOS MART.
+
+**Channel 2 — Wholesale**
+
+Supply to other retailers.
+
+**Channel 3 — Institutional Supply**
+
+Bulk supply to organisations.
+
+**Channel 4 — Direct Customer Orders**
+
+Phone, WhatsApp and other supported digital ordering channels.
+
+**Channel 5 — Regional Product Distribution**
+
+Distribution of selected Hadoti and Rajasthan products.
+
+**Channel 6 — Future Online Commerce**
+
+Develop an online catalogue and order system when operational capacity and customer demand justify it.
+
+Each channel should have its own sales, pricing, inventory and payment records.
+
+## 5.6 Additional Store Locations
+
+After validating the first store, evaluate additional locations.
+
+Expansion criteria:
+
+- Positive operating performance.
+- Consistent customer demand.
+- Reliable supply network.
+- Sufficient working capital.
+- Inventory management capability.
+- Staff availability.
+- Standard operating procedures.
+- Repeatable financial performance.
+
+Use the existing application as the common management platform, provided multi-location functionality and access controls are tested and supported.
+
+Do not assume that a single-store application is automatically ready for multi-store deployment.
+
+## 5.7 Distribution and Logistics Expansion
+
+Develop distribution capabilities gradually.
+
+Potential activities:
+
+- Local delivery.
+- Wholesale distribution.
+- Producer collection.
+- Regional warehousing.
+- Bulk procurement.
+- Institutional delivery.
+- Inter-store stock transfers.
+
+Use third-party logistics or low-fixed-cost transport arrangements initially.
+
+Invest in dedicated vehicles or warehouses only when actual volume supports the expense.
+
+## 5.8 Business Intelligence and Growth Management
+
+Use accumulated operating data to identify:
+
+- Fast-moving products.
+- Slow-moving products.
+- High-margin products.
+- Low-margin products.
+- Supplier performance.
+- Customer buying patterns.
+- Category-wise profitability.
+- Inventory requirements.
+- Seasonal demand.
+- Working capital requirements.
+- Channel profitability.
+- Store-level performance.
+
+The objective is to make expansion decisions using verified business information.
+
+## 5.9 Phase 4 Deliverables
+
+1. Wholesale business model.
+2. Institutional supply model.
+3. Regional producer network.
+4. GRAMOSFUEL product integration.
+5. Multi-channel sales framework.
+6. Distribution and logistics network.
+7. Additional store feasibility assessments.
+8. Multi-location operating procedures.
+9. Business intelligence reports.
+10. Commercial expansion strategy.
+
+**Phase 4 completion condition:** The business operates through validated retail and additional commercial channels with controlled inventory, transparent financial records and repeatable operating procedures.
+
+---
+
+# 6. MASTER IMPLEMENTATION CONTROL
+
+The four phases must follow a controlled sequence.
+
+**Phase 1: Activate actual business data.**
+
+↓
+
+**Phase 2: Validate real transactions and financial calculations.**
+
+↓
+
+**Phase 3: Deploy the application in the physical store.**
+
+↓
+
+**Phase 4: Expand into wholesale, institutional supply, regional sourcing and additional locations.**
+
+Do not skip transaction validation to begin expansion.
+
+Do not purchase large quantities of inventory before the product range and market demand are established.
+
+Do not open additional stores before the first operating model is financially understood.
+
+# 7. MASTER PERFORMANCE INDICATORS
+
+Throughout implementation, monitor:
+
+**Data Quality**
+- Percentage of active products with complete records.
+- Percentage of verified suppliers.
+- Product-cost accuracy.
+- Inventory record accuracy.
+
+**Transaction Accuracy**
+- Purchase reconciliation.
+- Sales reconciliation.
+- Stock deduction accuracy.
+- Supplier balance accuracy.
+- Financial calculation accuracy.
+
+**Store Performance**
+- Daily and monthly sales.
+- Average bill value.
+- Gross margin.
+- Stock turnover.
+- Customer retention.
+- Operating expenses.
+- Net operating performance.
+
+**Expansion Performance**
+- Wholesale customers.
+- Institutional buyers.
+- Regional producers onboarded.
+- Distribution volume.
+- Channel profitability.
+- New outlet performance.
+
+Targets should be established after collecting baseline business data. Do not invent performance figures before the business begins operating.
+
+# 8. RISK MANAGEMENT
+
+The following risks must be monitored across all phases:
+
+- Incorrect product costs.
+- Inaccurate inventory quantities.
+- Unverified suppliers.
+- Supplier-credit payment defaults.
+- Consignment stock disputes.
+- Expired or damaged products.
+- Incorrect tax treatment.
+- Cash and bank reconciliation errors.
+- Data loss.
+- Unauthorised application access.
+- Insufficient working capital.
+- Excessive inventory purchases.
+- Weak customer demand.
+- Premises agreement disputes.
+- Premature expansion.
+
+Every major financial transaction should have supporting documentation.
+
+The application should maintain appropriate transaction histories, access controls and backups.
+
+# 9. IMPLEMENTATION GOVERNANCE
+
+Dakshakriti will coordinate the overall business implementation and management of GRAMOS MART, subject to verification of the final legal entity and its authorised operating arrangements.
+
+The founder/operator will retain responsibility for:
+
+- Business strategy.
+- Product sourcing.
+- Supplier relationships.
+- Commercial negotiations.
+- Procurement approval.
+- Branding.
+- Marketing.
+- Financial supervision.
+- Store operations.
+- Expansion decisions.
+
+The property owner's proposed participation will be governed by a separately negotiated written premises and commercial agreement.
+
+Suppliers will operate under their respective purchase, credit, manufacturing, white-label or consignment agreements.
+
+No supplier or property owner should receive automatic rights over unrelated GRAMOS, GRAMOSFUEL or Dakshakriti business operations.
+
+# 10. FINAL PROJECT OBJECTIVE
+
+The ultimate objective is to establish GRAMOS MART as a technology-enabled retail and distribution operating system.
+
+It will connect:
+
+- Products.
+- Manufacturers.
+- Suppliers.
+- Regional producers.
+- Retail customers.
+- Wholesale buyers.
+- Institutional buyers.
+- Distribution channels.
+- Financial records.
+- Business intelligence.
+
+The existing GRAMOS MART application will serve as the central digital operating platform, subject to successful data and transaction validation.
+
+The physical outlet will serve as the initial commercial testing and operating point.
+
+The wider network will develop through controlled expansion.
+
+## BUSINESS OPERATING PRINCIPLE
+
+**Sell what customers need. Stock what moves. Control every rupee. Build reliable supplier relationships. Grow through repeat customers.**
+
+## FINAL STATUS
+
+Application development: Completed, as confirmed by the user.
+
+Phase 1 — Business Data Activation: Next to execute.
+
+Phase 2 — Transaction Validation: Pending.
+
+Phase 3 — Physical Store Deployment: Pending premises, commercial arrangements and compliance readiness.
+
+Phase 4 — Commercial Expansion: Future growth stage.
+
+**Project status: Transitioning from application development to business implementation.**
+
+**End of Document — GRM-IMP-001**
+
+### Master implementation tracker
+
+### GRAMOS MART — Implementation Progress
+
+Application development
+
+Completed
+
+Phase 1 — Business Data Activation
+
+Next
+
+Next
+
+Phase 2 — Transaction Validation
+
+Pending
+
+Pending
+
+Phase 3 — Physical Store Deployment
+
+Pending
+
+Pending
+
+Phase 4 — Commercial Expansion
+
+Future
+
+Future
+
+Implementation document: GRM-IMP-001
+
+Recommended immediate action: Begin Phase 1 with actual product catalogue and supplier data.
+
+This is the complete four-phase master plan in one document. The next work should be the actual execution of Phase 1, not further app development.
